@@ -1,0 +1,118 @@
+body{
+  background-color: #f9f9f9;
+  font-family: "微软雅黑" !important;
+}
+body,.menu{
+  font-family: "微软雅黑" !important;
+}
+/*
+container 样式
+ */
+.container{
+  margin:0 auto;
+}
+@media only screen and (min-width : 720px) and (max-width: 1254px) {
+  .container {
+    width: 1024px;
+    right: 75px;
+    margin: 0em auto;
+  }
+}
+@media only screen and (min-width: 1255px) {
+  .container {
+    width: 1255px;
+  }
+}
+
+/*导航栏*/
+.top_nav > .item:first-child{
+  border-radius: 0em !important;
+}
+.top_nav > .item{
+  height: 42px;
+}
+.top_nav{
+  height: 42px;
+  border-radius: 0em !important;
+}
+/**/
+.header_warpper{
+  height: 200px;
+}
+
+/*Login Form*/
+.login_form{
+  margin-top: 8%;
+}
+/*register Form*/
+.register_form{
+  margin-top: 8%;
+}
+
+/*error 样式*/
+.error_tag , .error_red{
+  position: absolute;
+  font-size:0.80em !important;
+  color:red !important;
+}
+
+/*admin menu*/
+.ui.vertical.menu{
+  width: 100% !important;
+}
+
+/*分页*/
+/*.pagination{
+    margin: 0;
+    list-style: none;
+    float: right;
+    margin: 10px 0;
+}
+
+.pagination>li{
+    text-align: center;
+    float: left;
+    position: relative;
+    vertical-align: middle;
+    line-height: 1;
+    text-decoration: none;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background: 0 0;
+
+    text-transform: none;
+    color: rgba(0,0,0,.87);
+    font-weight: 400;
+    -webkit-transition: background .1s ease,box-shadow .1s ease,color .1s ease;
+    transition: background .1s ease,box-shadow .1s ease,color .1s ease;
+}
+.pagination>li{
+    border-radius: 5px !important;
+}
+.pagination>li>a,.pagination>li>span{
+    border:1px solid red;
+    padding: .6em 1.2em;
+}*/
+
+
+/* 通用 */
+::-webkit-input-placeholder { font-family: '微软雅黑' }
+::-moz-placeholder { font-family: '微软雅黑' } /* firefox 19+ */
+:-ms-input-placeholder { font-family: '微软雅黑' } /* ie */
+input:-moz-placeholder { font-family: '微软雅黑' }
+
+/* webkit专用 */
+#field2::-webkit-input-placeholder { font-family: '微软雅黑' }
+#field3::-webkit-input-placeholder { font-family: '微软雅黑' }
+#field4::-webkit-input-placeholder { font-family: '微软雅黑' }
+
+/* mozilla专用 */
+#field2::-moz-placeholder { font-family: '微软雅黑' }
+#field3::-moz-placeholder { font-family: '微软雅黑' }
+#field4::-moz-placeholder { font-family: '微软雅黑' }
